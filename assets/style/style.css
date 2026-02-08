@@ -13,3 +13,11 @@ h1 {
   object-fit: cover;
   aspect-ratio: 1;
 }
+
+.text-limiter {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
