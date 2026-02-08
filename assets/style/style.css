@@ -8,3 +8,8 @@ h1 {
   padding: 0.6em;
   margin-bottom: 1em;
 }
+
+.card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1;
+}
